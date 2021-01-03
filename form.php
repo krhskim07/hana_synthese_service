@@ -5,16 +5,16 @@
         la valeur des attributs name comme clé 
        */
       //Deliveroo
-     $deliveroo_hana = $_POST['deliveroo_hana']; 
-     $deliveroo_hana_new = $_POST['deliveroo_hana_new']; 
-     $deliveroo_minato_fry = $_POST['deliveroo_minato_fry'];
-     $deliveroo_minato_fry_new = $_POST['deliveroo_minato_fry_new'];
-     $deliveroo_minato_onigiri = $_POST['deliveroo_minato_onigiri'];
-     $deliveroo_minato_onigiri_new = $_POST['deliveroo_minato_onigiri_new'];
+     // $deliveroo_hana = $_POST['deliveroo_hana']; 
+    // $deliveroo_hana_new = $_POST['deliveroo_hana_new']; 
+    // $deliveroo_minato_fry = $_POST['deliveroo_minato_fry'];
+   //  $deliveroo_minato_fry_new = $_POST['deliveroo_minato_fry_new'];
+    // $deliveroo_minato_onigiri = $_POST['deliveroo_minato_onigiri'];
+    // $deliveroo_minato_onigiri_new = $_POST['deliveroo_minato_onigiri_new'];
 
     //Uber Eats
-    $uber_hana_bento = $_POST['uber_hana_bento'];
-    $uber_hana_karaage = $_POST['uber_hana_karaage'];
+   // $uber_hana_bento = $_POST['uber_hana_bento'];
+   // $uber_hana_karaage = $_POST['uber_hana_karaage'];
 
 
     //CA
@@ -26,25 +26,24 @@
     $ca_uber_hana_karaage = $_POST['ca_uber_hana_karaage'];
 
     //CA services
-    $especes = $_POST['especes'];
-    $cb = $_POST['cb'];
-    $amex = $_POST['amex'];
-    $ticket_r = $_POST['ticket_r'];
-    $carte_tr = $_POST['carte_tr'];
+    //$especes = $_POST['especes'];
+    //$cb = $_POST['cb'];
+    //$amex = $_POST['amex'];
+    //$ticket_r = $_POST['ticket_r'];
+    //$carte_tr = $_POST['carte_tr'];
 
 
     //Remarque
     $remarque = $_POST['remarque'];
 
     //Calcul Deliveroo
-    $habitues_hana = $deliveroo_hana - $deliveroo_hana_new;
-    $habitues_minato_fry = $deliveroo_minato_fry - $deliveroo_minato_fry_new;
-    $habitues_minato_onigiri = $deliveroo_minato_onigiri - $deliveroo_minato_onigiri_new;
+   // $habitues_hana = $deliveroo_hana - $deliveroo_hana_new;
+   // $habitues_minato_fry = $deliveroo_minato_fry - $deliveroo_minato_fry_new;
+   // $habitues_minato_onigiri = $deliveroo_minato_onigiri - $deliveroo_minato_onigiri_new;
 
     //Calcul CA
-    $ca_service = $especes + $cb + $amex + $ticket_r + $carte_tr;
     $ca_journee_minato = $ca_deli_minato_fry + $ca_deli_minato_onigiri;
-    $ca_journee_hana = $ca_service + $ca_deli_hana + $ca_uber_hana + $ca_uber_hana_karaage;
+    $ca_journee_hana = $ca_resto + $ca_deli_hana + $ca_uber_hana + $ca_uber_hana_karaage;
     $ca_journee_total_deli = $ca_deli_hana + $ca_deli_minato_onigiri + $ca_deli_minato_fry;
     $ca_journee_total_uber = $ca_uber_hana + $ca_uber_hana_karaage;
     $ca_journee_total = $ca_journee_hana + $ca_journee_minato;
@@ -78,7 +77,7 @@
 
             <p>Take away</p>
 
-            <p><?php echo $deliveroo_hana .  " Deliveroo Hana ( "   . $deliveroo_hana_new . " new, " . $habitues_hana . " regulars) "; ?></p>
+ <!--           <p><?php echo $deliveroo_hana .  " Deliveroo Hana ( "   . $deliveroo_hana_new . " new, " . $habitues_hana . " regulars) "; ?></p>
 
             <p><?php echo $deliveroo_minato_fry . " Deliveroo Minato Fry ( " . $deliveroo_minato_fry_new . " new, " . $habitues_minato_fry . " regulars) "; ?></p>
 
@@ -86,7 +85,7 @@
 
             <p><?php echo $uber_hana_bento; ?> Uber Eats Hana Bento</p>
 
-            <p><?php echo $uber_hana_karaage; ?> Uber Eats Hana Karaage</p>
+            <p><?php echo $uber_hana_karaage; ?> Uber Eats Hana Karaage</p> -->
 
             <p>CA resto = <?php echo $ca_resto . "€"; ?></p>
 
@@ -100,13 +99,7 @@
 
             <p>CA Hana Karaage Uber = <?php echo $ca_uber_hana_karaage . "€"; ?></p>
 
-            <p>CA service = <?php echo $ca_service . "€"; ?></p>
-
-            <p>CA JOURNEE Minato = <?php echo $ca_journee_minato . "€"; ?></p>
-
-            <p>CA JOURNEE Hana = <?php echo $ca_journee_hana . "€"; ?></p>
-
-            <p>CA JOURNEE Hana + Minato = <?php echo $ca_journee_total . "€ dont " . $ca_journee_total_deli . "€ de Deliveroo et " . $ca_journee_total_uber . "€ de Uber ";  ?></p>
+            <p>CA JOURNEE Hana <?php echo $ca_journee_minato . "€"; ?> + Minato <?php echo $ca_journee_hana . "€"; ?> = <?php echo $ca_journee_total . "€ dont " . $ca_journee_total_deli . "€ de Deliveroo et " . $ca_journee_total_uber . "€ de Uber ";  ?></p>
 
             <p>Remarques :</p>
 

@@ -22,7 +22,7 @@
     <div class="main">
         <div class="main-center">
             <form class="" method="post" action="form.php">
-            <div class="row">
+            <!--<div class="row">
                 <h2>Deliveroo</h2>
                 <div class="col-md-6 .col-xs-6">
                     <div class="form-group">
@@ -87,7 +87,7 @@
                         <input type="number" class="form-control" name="uber_hana_karaage" id="uber_hana_karaage"  placeholder="Enter nb of take away Uber Eats Hana Karaage"/>
                     </div>
                 </div>
-            </div>  
+            </div>  -->
             <div class="row">
                 <h2>CA</h2>
                 <div class="col-md-12 form-group">
@@ -126,7 +126,7 @@
                         <input type="number" step="0.01" class="form-control" name="ca_uber_hana_karaage" id="ca_uber_hana_karaage"  placeholder="Enter CA Uber Eats Hana Karaage"/>
                     </div>
                 </div>
-                <div class="col-md-12 form-group">
+             <!--   <div class="col-md-12 form-group">
                     <label for="especes">Espèces</label>
                     <div class="input-group">
                         <input type="number" step="0.01" class="form-control" name="especes" id="especes"  placeholder="Enter montant espèces"/>
@@ -155,7 +155,7 @@
                     <div class="input-group">
                         <input type="number" step="0.01" class="form-control" name="carte_tr" id="carte_tr"  placeholder="Enter montant Carte TR"/>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-12 form-group">
                     <label for="remarque">Remarque</label>
                     <div class="input-group remarque">
