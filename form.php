@@ -99,7 +99,7 @@
 
             <p>CA Hana Karaage Uber = <?php echo $ca_uber_hana_karaage . "€"; ?></p>
 
-            <p>CA JOURNEE Hana <?php echo $ca_journee_minato . "€"; ?> + Minato <?php echo $ca_journee_hana . "€"; ?> = <?php echo $ca_journee_total . "€ dont " . $ca_journee_total_deli . "€ de Deliveroo et " . $ca_journee_total_uber . "€ de Uber ";  ?></p>
+            <p>CA JOURNEE Hana <?php echo $ca_journee_hana . "€"; ?> + Minato <?php echo $ca_journee_minato . "€"; ?> = <?php echo $ca_journee_total . "€ dont " . $ca_journee_total_deli . "€ de Deliveroo et " . $ca_journee_total_uber . "€ de Uber ";  ?></p>
 
             <p>Remarques :</p>
 
