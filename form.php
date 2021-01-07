@@ -22,6 +22,7 @@
     $ca_deli_hana = $_POST['ca_deli_hana'];
     $ca_deli_minato_fry = $_POST['ca_deli_minato_fry'];
     $ca_deli_minato_onigiri = $_POST['ca_deli_minato_onigiri'];
+    $ca_deli_minato_cocktail = $_POST['ca_deli_minato_cocktail'];
     $ca_uber_hana = $_POST['ca_uber_hana'];
     $ca_uber_hana_karaage = $_POST['ca_uber_hana_karaage'];
 
@@ -42,9 +43,9 @@
    // $habitues_minato_onigiri = $deliveroo_minato_onigiri - $deliveroo_minato_onigiri_new;
 
     //Calcul CA
-    $ca_journee_minato = $ca_deli_minato_fry + $ca_deli_minato_onigiri;
+    $ca_journee_minato = $ca_deli_minato_fry + $ca_deli_minato_onigiri + $ca_deli_minato_cocktail;
     $ca_journee_hana = $ca_resto + $ca_deli_hana + $ca_uber_hana + $ca_uber_hana_karaage;
-    $ca_journee_total_deli = $ca_deli_hana + $ca_deli_minato_onigiri + $ca_deli_minato_fry;
+    $ca_journee_total_deli = $ca_deli_hana + $ca_deli_minato_onigiri + $ca_deli_minato_fry + $ca_deli_minato_cocktail;
     $ca_journee_total_uber = $ca_uber_hana + $ca_uber_hana_karaage;
     $ca_journee_total = $ca_journee_hana + $ca_journee_minato;
 
@@ -77,7 +78,7 @@
 
             <p>Take away</p>
 
- <!--           <p><?php echo $deliveroo_hana .  " Deliveroo Hana ( "   . $deliveroo_hana_new . " new, " . $habitues_hana . " regulars) "; ?></p>
+ <!--       <p><?php echo $deliveroo_hana .  " Deliveroo Hana ( "   . $deliveroo_hana_new . " new, " . $habitues_hana . " regulars) "; ?></p>
 
             <p><?php echo $deliveroo_minato_fry . " Deliveroo Minato Fry ( " . $deliveroo_minato_fry_new . " new, " . $habitues_minato_fry . " regulars) "; ?></p>
 
@@ -94,6 +95,8 @@
             <p>CA Deliveroo Minato Fry = <?php echo $ca_deli_minato_fry . "€"; ?></p>
 
             <p>CA Deliveroo Minato Onigiri = <?php echo $ca_deli_minato_onigiri . "€"; ?></p>
+
+            <p>CA Deliveroo Minato Cocktail = <?php echo $ca_deli_minato_cocktail . "€"; ?></p>
 
             <p>CA Hana Uber = <?php echo $ca_uber_hana . "€"; ?></p>
 

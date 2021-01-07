@@ -115,6 +115,12 @@
                     </div>
                 </div>
                 <div class="col-md-12 form-group">
+                    <label for="ca_deli_minato_cocktail">CA Deliveroo Minato Cocktail</label>
+                    <div class="input-group">
+                        <input type="number" step="0.01" class="form-control" name="ca_deli_minato_cocktail" id="ca_deli_minato_cocktail"  placeholder="Enter CA Deliveroo Minato Cocktail"/>
+                    </div>
+                </div>
+                <div class="col-md-12 form-group">
                     <label for="ca_uber_hana">CA Uber Hana</label>
                     <div class="input-group">
                         <input type="number" step="0.01" class="form-control" name="ca_uber_hana" id="ca_uber_hana"  placeholder="Enter CA Uber Eats Hana"/>
