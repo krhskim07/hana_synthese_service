@@ -132,6 +132,12 @@
                         <input type="number" step="0.01" class="form-control" name="ca_uber_hana_karaage" id="ca_uber_hana_karaage"  placeholder="Enter CA Uber Eats Hana Karaage"/>
                     </div>
                 </div>
+                <div class="col-md-12 form-group">
+                    <label for="ca_uber_syko">CA Uber Syko</label>
+                    <div class="input-group">
+                        <input type="number" step="0.01" class="form-control" name="ca_uber_syko" id="ca_uber_syko"  placeholder="Enter CA Uber Eats Syko"/>
+                    </div>
+                </div>
              <!--   <div class="col-md-12 form-group">
                     <label for="especes">Espèces</label>
                     <div class="input-group">
