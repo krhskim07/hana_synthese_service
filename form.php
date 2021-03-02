@@ -27,6 +27,21 @@
     $ca_uber_hana_karaage = $_POST['ca_uber_hana_karaage'];
     $ca_uber_syko = $_POST['ca_uber_syko'];
 
+    //Pertes
+    $perte_onigiri_thon = $_POST['perte_onigiri_thon'];
+    $perte_onigiri_saumon = $_POST['perte_onigiri_saumon'];
+    $perte_onigiri_prune = $_POST['perte_onigiri_prune'];
+    $perte_donburi_gyudon = $_POST['perte_donburi_gyudon'];
+    $perte_donburi_teriyakidon = $_POST['perte_donburi_teriyakidon'];
+    $perte_donburi_toridon = $_POST['perte_donburi_toridon'];
+    $perte_donburi_currydon = $_POST['perte_donburi_currydon'];
+    $perte_maki_avocat = $_POST['perte_maki_avocat'];
+    $perte_maki_saumon = $_POST['perte_maki_saumon'];
+    $perte_maki_comcombre = $_POST['perte_maki_comcombre'];
+    $perte_california = $_POST['perte_california'];
+    $perte_sushi = $_POST['perte_sushi'];
+
+
 
     //CA services
     //$especes = $_POST['especes'];
@@ -107,6 +122,30 @@
             <p>CA Syko Uber = <?php echo $ca_uber_syko . "€"; ?></p>
 
             <p>CA JOURNEE Hana <?php echo $ca_journee_hana . "€"; ?> + Minato <?php echo $ca_journee_minato . "€"; ?>  + Syko <?php echo $ca_uber_syko ?> = <?php echo $ca_journee_total . "€ dont " . $ca_journee_total_deli . "€ de Deliveroo et " . $ca_journee_total_uber . "€ de Uber ";  ?></p>
+
+            <br>
+            <p>Pertes :</p>
+
+            <p>Onigiris : </p>
+            <p>Onigiri Thon-Mayo : <?php echo $perte_onigiri_thon ?></p>
+            <p>Onigiri Saumon : <?php echo $perte_onigiri_saumon ?></p>
+            <p>Onigiri Prune : <?php echo $perte_onigiri_prune ?></p>
+            <p>Donburis :</p>
+            <p>Donburi Teriyakidon : <?php echo $perte_donburi_teriyakidon ?></p>
+            <p>Donburi Toridon : <?php echo $perte_donburi_toridon ?></p>
+            <p>Donburi Currydon : <?php echo $perte_donburi_currydon ?></p>
+            <p>Sushi & Maki :</p>
+            <p>Maki Avocat : <?php echo $perte_maki_avocat ?></p>
+            <p>Maki Saumon : <?php echo $perte_maki_saumon ?></p>
+            <p>Maki Comcombre : <?php echo $perte_maki_comcombre ?></p>
+            <p>Sushi Saumon : <?php echo $perte_sushi ?></p>
+
+
+
+
+
+
+
 
             <p>Remarques :</p>
 

@@ -96,11 +96,30 @@
                         <input type="number" step="0.01" class="form-control" name="ca_resto" id="ca_resto"  placeholder="Enter CA resto"/>
                     </div>
                 </div>
+
+                <div class="Resto-title">
+                   <h2>Hana</h2> 
+                </div>
                 <div class="col-md-12 form-group">
                     <label for="ca_deli_hana">CA Deliveroo Hana</label>
                     <div class="input-group">
                         <input type="number" step="0.01" class="form-control" name="ca_deli_hana" id="ca_deli_hana"  placeholder="Enter CA Deliveroo Hana"/>
                     </div>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="ca_uber_hana">CA Uber Hana</label>
+                    <div class="input-group">
+                        <input type="number" step="0.01" class="form-control" name="ca_uber_hana" id="ca_uber_hana"  placeholder="Enter CA Uber Eats Hana"/>
+                    </div>
+                </div>
+                <div class="col-md-12 form-group">
+                    <label for="ca_uber_hana_karaage">CA Uber Hana Karaage</label>
+                    <div class="input-group">
+                        <input type="number" step="0.01" class="form-control" name="ca_uber_hana_karaage" id="ca_uber_hana_karaage"  placeholder="Enter CA Uber Eats Hana Karaage"/>
+                    </div>
+                </div>
+                <div class="Resto-title">
+                   <h2>Minato</h2> 
                 </div>
                 <div class="col-md-12 form-group">
                     <label for="ca_deli_minato_fry">CA Deliveroo Minato Fry</label>
@@ -120,22 +139,94 @@
                         <input type="number" step="0.01" class="form-control" name="ca_deli_minato_cocktail" id="ca_deli_minato_cocktail"  placeholder="Enter CA Deliveroo Minato Cocktail"/>
                     </div>
                 </div>
-                <div class="col-md-12 form-group">
-                    <label for="ca_uber_hana">CA Uber Hana</label>
-                    <div class="input-group">
-                        <input type="number" step="0.01" class="form-control" name="ca_uber_hana" id="ca_uber_hana"  placeholder="Enter CA Uber Eats Hana"/>
-                    </div>
-                </div>
-                <div class="col-md-12 form-group">
-                    <label for="ca_uber_hana_karaage">CA Uber Hana Karaage</label>
-                    <div class="input-group">
-                        <input type="number" step="0.01" class="form-control" name="ca_uber_hana_karaage" id="ca_uber_hana_karaage"  placeholder="Enter CA Uber Eats Hana Karaage"/>
-                    </div>
+                <div class="Resto-title">
+                    <h2>syKo</h2> 
                 </div>
                 <div class="col-md-12 form-group">
                     <label for="ca_uber_syko">CA Uber Syko</label>
                     <div class="input-group">
                         <input type="number" step="0.01" class="form-control" name="ca_uber_syko" id="ca_uber_syko"  placeholder="Enter CA Uber Eats Syko"/>
+                    </div>
+                </div>
+                <div class="Resto-title">
+                    <h2>Pertes</h2> 
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_onigiri_thon">Onigiri Thon-Mayo</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_onigiri_thon" id="perte_onigiri_thon"  placeholder="Enter nb perte Onigiri Thon-Mayo"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_onigiri_saumon">Onigiri Saumon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_onigiri_saumon" id="perte_onigiri_saumon"  placeholder="Enter nb perte Onigiri Saumon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_onigiri_prune">Onigiri Prune</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_onigiri_prune" id="perte_onigiri_prune"  placeholder="Enter nb perte Onigiri Prune"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_donburi_gyudon">Gyudon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_gyudon" id="perte_gyudon"  placeholder="Enter nb perte Gyudon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_donburi_teriyakidon">Teriyakidon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_teriyakidon" id="perte_teriyakidon"  placeholder="Enter nb perte Teriyakidon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_donburi_toridon">Toridon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_toridon" id="perte_toridon"  placeholder="Enter nb perte Toridon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_donburi_currydon">Currydon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_currydon" id="perte_currydon"  placeholder="Enter nb perte Currydon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_donburi_currydon">Currydon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_currydon" id="perte_currydon"  placeholder="Enter nb perte Currydon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_maki_avocat">Maki Avocat</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_avocat" id="perte_avocat"  placeholder="Enter nb perte Maki Avocat"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_maki_saumon">Maki Saumon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_saumon" id="perte_saumon"  placeholder="Enter nb perte Maki Saumon"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_maki_comcombre">Maki Comcombre</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_comcombre" id="perte_comcombre"  placeholder="Enter nb perte Maki Comcombre"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_california">California Saumon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_california" id="perte_california"  placeholder="Enter nb perte California"/>
+                    </div>
+                </div>
+                <div class="col-md-6 form-group">
+                    <label for="perte_sushi">Sushi Saumon</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" name="perte_sushi" id="perte_sushi"  placeholder="Enter nb perte Sushi Saumon"/>
                     </div>
                 </div>
              <!--   <div class="col-md-12 form-group">
