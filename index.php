@@ -194,12 +194,6 @@
                     </div>
                 </div>
                 <div class="col-md-6 form-group">
-                    <label for="perte_donburi_currydon">Currydon</label>
-                    <div class="input-group">
-                        <input type="number" class="form-control" name="perte_currydon" id="perte_currydon"  placeholder="Enter nb perte Currydon"/>
-                    </div>
-                </div>
-                <div class="col-md-6 form-group">
                     <label for="perte_maki_avocat">Maki Avocat</label>
                     <div class="input-group">
                         <input type="number" class="form-control" name="perte_avocat" id="perte_avocat"  placeholder="Enter nb perte Maki Avocat"/>

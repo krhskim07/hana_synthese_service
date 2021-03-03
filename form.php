@@ -31,13 +31,13 @@
     $perte_onigiri_thon = $_POST['perte_onigiri_thon'];
     $perte_onigiri_saumon = $_POST['perte_onigiri_saumon'];
     $perte_onigiri_prune = $_POST['perte_onigiri_prune'];
-    $perte_donburi_gyudon = $_POST['perte_donburi_gyudon'];
-    $perte_donburi_teriyakidon = $_POST['perte_donburi_teriyakidon'];
-    $perte_donburi_toridon = $_POST['perte_donburi_toridon'];
-    $perte_donburi_currydon = $_POST['perte_donburi_currydon'];
-    $perte_maki_avocat = $_POST['perte_maki_avocat'];
-    $perte_maki_saumon = $_POST['perte_maki_saumon'];
-    $perte_maki_comcombre = $_POST['perte_maki_comcombre'];
+    $perte_gyudon = $_POST['perte_gyudon'];
+    $perte_teriyakidon = $_POST['perte_teriyakidon'];
+    $perte_toridon = $_POST['perte_toridon'];
+    $perte_currydon = $_POST['perte_currydon'];
+    $perte_avocat = $_POST['perte_avocat'];
+    $perte_saumon = $_POST['perte_saumon'];
+    $perte_comcombre = $_POST['perte_comcombre'];
     $perte_california = $_POST['perte_california'];
     $perte_sushi = $_POST['perte_sushi'];
 
@@ -126,18 +126,18 @@
             <br>
             <p>Pertes :</p>
 
-            <p>Onigiris : </p>
             <p>Onigiri Thon-Mayo : <?php echo $perte_onigiri_thon ?></p>
             <p>Onigiri Saumon : <?php echo $perte_onigiri_saumon ?></p>
             <p>Onigiri Prune : <?php echo $perte_onigiri_prune ?></p>
-            <p>Donburis :</p>
-            <p>Donburi Teriyakidon : <?php echo $perte_donburi_teriyakidon ?></p>
-            <p>Donburi Toridon : <?php echo $perte_donburi_toridon ?></p>
-            <p>Donburi Currydon : <?php echo $perte_donburi_currydon ?></p>
-            <p>Sushi & Maki :</p>
-            <p>Maki Avocat : <?php echo $perte_maki_avocat ?></p>
-            <p>Maki Saumon : <?php echo $perte_maki_saumon ?></p>
-            <p>Maki Comcombre : <?php echo $perte_maki_comcombre ?></p>
+
+            <p>Donburi Teriyakidon : <?php echo $perte_teriyakidon ?></p>
+            <p>Donburi Toridon : <?php echo $perte_toridon ?></p>
+            <p>Donburi Currydon : <?php echo $perte_currydon ?></p>
+
+            <p>Maki Avocat : <?php echo $perte_avocat ?></p>
+            <p>Maki Saumon : <?php echo $perte_saumon ?></p>
+            <p>Maki Comcombre : <?php echo $perte_comcombre ?></p>
+            <p>California Saumon : <?php echo $perte_california ?></p>
             <p>Sushi Saumon : <?php echo $perte_sushi ?></p>
 
 
